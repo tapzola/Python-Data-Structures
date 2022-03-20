@@ -129,7 +129,7 @@ empty()| Returns true if the root node is empty. This can also be done by checki
 contains(value) | Determine if a value is in the tree.	 |  O(log n) - Recursively search the subtrees to find the value.
 
 
-[Problem to Solve](trees_tutorial.py)
+[Problem to Solve](https://github.com/tapzola/cse212-final-project/blob/main/tress_tutorial.py)
 
      
 
