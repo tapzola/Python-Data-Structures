@@ -1,6 +1,6 @@
 # Trees
 
-"""A Tree is a data structure in which data items are conneted using reference in a hierachal manner. 
+A Tree is a data structure in which data items are conneted using reference in a hierachal manner. 
 Each tree consists of a root node in which we can access each element of the tree. Starting from the root node 
 each node consists of zero or more nodes connected to it as its children.
 
