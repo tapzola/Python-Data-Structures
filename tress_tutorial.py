@@ -70,7 +70,9 @@ class Tree:
 
         """
         return self._contains(data, root)  # Start at the root
-
+  ###################
+    # Solution #
+  ###################
   def _contains(self, data, node):
         """
         This funciton will search for a node that contains
@@ -97,7 +99,6 @@ class Tree:
 
 
 #Testing code
-print("\n=========== PROBLEM 1 TESTS ===========")
 tree = Tree()
 root = tree.createNode(5)
 print(root.data)
@@ -111,17 +112,17 @@ tree.insert(root, 30)
 tree.insert(root, 6)
 tree.insert(root, 8)
 
-tree.traverse_inorder(root)
+# tree.traverse_inorder(root)
 
-print(tree._get_height(root)) # 3
-tree.insert(root, 9)
-print(tree._get_height(root)) # 3
-tree.insert(root, 40)
-print(tree._get_height(root)) # 4
+# print(tree._get_height(root)) # 3
+# tree.insert(root, 9)
+# print(tree._get_height(root)) # 3
+# tree.insert(root, 40)
+# print(tree._get_height(root)) # 4
     
     
         
-print("\n=========== PROBLEM 2 TESTS ===========")
+print("\n=========== Solution TESTS ===========")
 print(3 in tree) # False
 print(2 in tree) # True
 print(7 in tree) # True
