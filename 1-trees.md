@@ -128,11 +128,8 @@ size()| Return the size of the BST. |  The size is maintained within the BST cla
 empty()| Returns true if the root node is empty. This can also be done by checking the size for 0. |  O(1) - The comparison of the root node or the size.
 contains(value) | Determine if a value is in the tree.	 |  O(log n) - Recursively search the subtrees to find the value.
 
-Problem To Solve 
 
-
-To create a link use the format: 
-[Python code](trees_tutorial.py)
+[Problem to Solve](trees_tutorial.py)
 
      
 
