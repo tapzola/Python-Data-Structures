@@ -32,7 +32,7 @@ The properties that separate a binary search tree from a regular binary tree is
 
 ![Binary Search Tree](http://www.csharpstar.com/wp-content/uploads/2015/11/BinarySearchTree_implementation_Csharp.jpg)
 
-### Implementation of a basic Binary Search Tree data structure.
+### Implementation of a Basic Binary Search Tree Data Structure.
 
 Since a node is a container for data and holds references to other nodes. Being a binary tree node, these references are to the left and the right children. Initially the left and right children are none. Data refers to data that will be contained in the node to establish a parent to children relationships accoriding to the rules of Binary Search Trees.
 
@@ -132,7 +132,7 @@ Problem To Solve
 
 
 To create a link use the format: 
-[Text to Display](filename or link)
+[Python code](trees_tutorial.py)
 
      
 
