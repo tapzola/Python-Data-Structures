@@ -131,6 +131,9 @@ contains(value) | Determine if a value is in the tree.	 |  O(log n) - Recursivel
 
 [Problem to Solve](https://github.com/tapzola/cse212-final-project/blob/main/tress_tutorial.py)
 
+ After you have tackled the problem you can view this solution below and compare with your own.
+ [Solution](https://github.com/tapzola/cse212-final-project/blob/main/tutorial.py)
+
      
 
 
