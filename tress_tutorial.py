@@ -28,38 +28,6 @@ class Tree:
       node.right = self.insert(node.right, data)
     return node
 
-  def traverse_inorder(self, root):
-    if root is not None:
-      # recursively call the inorder method by moving to the next node on the left side 
-      self.traverse_inorder(root.left)
-      print(root.data)
-      # Do the same thing on the right by recursively call the inorder method by moving to the next node on the right side 
-      self.traverse_inorder(root.right)
-
-  def _get_height(self, node):
-        count = 0
-        """
-        Determine the height of the BST.  The height of a sub-tree 
-        (represented by 'node') is 1 plus the height of either the 
-        left sub-tree or the right sub-tree (whichever one is bigger).
-
-        """
-        if node is None:
-          # return o if the tree is empty
-            return count
-        else:
-          # call the left and right side recursively
-            left = self._get_height(node.left)
-            right = self._get_height(node.right)
-
-        if left > right:
-          #Compare left sub tree and right sub tree
-            left += 1
-            return left
-        else:
-            right += 1
-            return right
-
   def __contains__(self, data):
         """ 
         Checks if data is in the BST.  This function
@@ -101,7 +69,7 @@ class Tree:
 #Testing code
 tree = Tree()
 root = tree.createNode(5)
-print(root.data)
+# print(root.data)
 tree.insert(root, 2)
 tree.insert(root, 10)
 tree.insert(root, 7)
@@ -112,13 +80,7 @@ tree.insert(root, 30)
 tree.insert(root, 6)
 tree.insert(root, 8)
 
-# tree.traverse_inorder(root)
 
-# print(tree._get_height(root)) # 3
-# tree.insert(root, 9)
-# print(tree._get_height(root)) # 3
-# tree.insert(root, 40)
-# print(tree._get_height(root)) # 4
     
     
         
