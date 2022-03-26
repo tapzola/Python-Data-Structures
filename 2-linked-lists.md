@@ -190,7 +190,7 @@ Here is a problem to solve
 [Problem](https://github.com/tapzola/cse212-final-project/blob/main/linked_list_problem.py)
 
 Once you finish the problem you can compare your answer to the solution below
-[Solution](
+[Solution](https://github.com/tapzola/cse212-final-project/blob/main/linked_list_solution.py)
 
 ## Big O Notation
 
