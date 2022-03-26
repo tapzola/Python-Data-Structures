@@ -140,7 +140,7 @@ class DoubleLinkedList:
         output += "]"
         return output
 
-print("\n=========== PROBLEM 1 TESTS ===========")
+#Testing code
 ll = DoubleLinkedList()
 ll.insert_at_the_end(1)
 ll.insert_at_the_beginning(2)
@@ -149,19 +149,19 @@ ll.insert_at_the_beginning(2)
 ll.insert_at_the_beginning(3)
 ll.insert_at_the_beginning(4)
 ll.insert_at_the_beginning(5)
-print(ll) # linkedlist[5, 4, 3, 2, 2, 2, 1]
+#print(ll) # linkedlist[5, 4, 3, 2, 2, 2, 1]
 
 ll.insert_at_the_end(0)
 ll.insert_at_the_end(-1)
-print(ll) # linkedlist[5, 4, 3, 2, 2, 2, 1, 0, -1]
+#print(ll) # linkedlist[5, 4, 3, 2, 2, 2, 1, 0, -1]
 
-print("\n=========== PROBLEM 2 TESTS ===========")
+
 ll.delete_at_the_end()
-print(ll) # linkedlist[5, 4, 3, 2, 2, 2, 1, 0]
+#print(ll) # linkedlist[5, 4, 3, 2, 2, 2, 1, 0]
 ll.delete_at_the_end()
-print(ll) # linkedlist[5, 4, 3, 2, 2, 2, 1]
+#print(ll) # linkedlist[5, 4, 3, 2, 2, 2, 1]
 
 
-print("\n=========== PROBLEM 3 TESTS ===========")
+print("\n=========== PROBLEM TESTS ===========")
 ll.del_at_position(5)
 print(ll) # linkedlist[5, 4, 3, 2, 2, 1]
