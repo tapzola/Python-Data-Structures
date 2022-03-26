@@ -186,7 +186,8 @@ def insert_at_position(self,data,position):
 
 To delete a node in between the linked list, at every node we will check if the position of next node is the node to be deleted, if yes, we will delete the next node and assign the next reference to the next node of the node being deleted.
 
-
+Here is a problem to solve
+[Problem](
 
 ## Big O Notation
 
