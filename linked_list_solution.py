@@ -162,6 +162,6 @@ ll.delete_at_the_end()
 #print(ll) # linkedlist[5, 4, 3, 2, 2, 2, 1]
 
 
-print("\n=========== PROBLEM TESTS ===========")
+print("\n=========== Soution TESTS ===========")
 ll.del_at_position(5)
-print(ll) # linkedlist[5, 4, 3, 2, 2, 1]
+print(ll) # linkedlist[5, 4, 3, 2, 0, 2, 1]
