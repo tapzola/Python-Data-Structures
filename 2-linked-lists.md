@@ -55,7 +55,7 @@ We can insert an element in a linked list at the first position, in the last pos
 To insert an element in a linked list at the beginning, we will first create a node and with the given value and assign its next reference to the first node i.e where the head is pointing. Then we point the head reference to the new node.
 
 ``` python
-   def insert_beginning(self, value):
+   def insert_at_the_beginning(self, value):
         """
         Insert a new node at the front of the
         linked list which is the head
