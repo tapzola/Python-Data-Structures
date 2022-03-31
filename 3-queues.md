@@ -34,10 +34,7 @@ In a call center he who call first is answered first whilst the other one is put
 Common Queue Operation | Description | Python code | Perfomance
 -------- | -------- | -------- | --------
 enqueue(value) | Adds "value" to the back of the queue | my_queue.append(value) | O(1)
-dequeue() | Two approaches: Remove and return the item from the front of the queue; or pop off index 0 | value = my_queue[0]
-del my_queue[0]
-or
-value = my_queue.pop(0) | O(n) 
+dequeue() | Two approaches: Remove and return the item from the front of the queue; or pop off index 0 | value = my_queue[0] del my_queue[0] or value = my_queue.pop(0) | O(n) 
 size() | Return the size of the queue | length = len(my_queue) | O(1) 
 empty() | Returns true if the length of the queue is zero. | if len(my_queue) == 0: | O(1) 
 
@@ -69,9 +66,13 @@ Initial Queue is: [10, 100, 1000, 10000]
 After Removing elements: [10000]
 ```
 Now after understanding much about queues let's apply queues using functions.
+
 Here is a problem
+
 [Problem](https://github.com/tapzola/cse212-final-project/blob/main/queues_problem.py)
+
 After you have finished solving the problem, compare it with your answer below.
+
 [Solution](https://github.com/tapzola/cse212-final-project/blob/main/queues_solution.py)
 
 
