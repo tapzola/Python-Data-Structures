@@ -70,7 +70,7 @@ After Removing elements: [10000]
 ```
 Now after understanding much about queues let's apply queues using functions.
 Here is a problem
-[Problem]()
+[Problem](https://github.com/tapzola/cse212-final-project/blob/main/queues_problem.py)
 After you have finished solving the problem, compare it with your answer below.
 [Solution]()
 
